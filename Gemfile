@@ -32,7 +32,7 @@ gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 gem "gritter", "1.2.0"
 gem 'administrate', github: 'greetpoint/administrate', branch: 'rails5'
 gem 'bourbon'
-
+gem 'pundit', '~> 1.1'
 
 
 #gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
