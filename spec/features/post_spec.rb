@@ -32,7 +32,7 @@ describe 'navigate' do
 
       other_user = User.create(first_name: 'Non', last_name: 'Authorized', email: "nonauth@example.com", password: "asdfasdf", password_confirmation: "asdfasdf")
       post_from_other_user = Post.create(date: Date.today, rationale: "This post shouldn't be seen", user_id: other_user.id)
-
+      
       visit posts_path
 
       expect(page).to_not have_content(/This post shouldn't be seen/)
