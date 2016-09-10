@@ -34,5 +34,6 @@ gem 'administrate', github: 'greetpoint/administrate', branch: 'rails5'
 gem 'bourbon'
 gem 'pundit', '~> 1.1'
 gem 'puma', '~> 3.6'
+gem 'twilio-ruby', '~> 4.12', '>= 4.12.1'
 
 #gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
