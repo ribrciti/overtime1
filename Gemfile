@@ -35,5 +35,6 @@ gem 'bourbon'
 gem 'pundit', '~> 1.1'
 gem 'puma', '~> 3.6'
 gem 'twilio-ruby', '~> 4.12', '>= 4.12.1'
+gem 'dotenv-rails', :groups => [:development, :test]
 
 #gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
