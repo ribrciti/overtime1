@@ -1,8 +1,8 @@
 FactoryGirl.define do
   factory :audit_log do
-    user nil
-    status ""
-    start_date "2016-09-12"
-    end_date "2016-09-12"
+    user 
+    status 0
+    start_date (Date.today - 6.days)
+    end_date nil
   end
 end
