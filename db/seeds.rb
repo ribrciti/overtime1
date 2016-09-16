@@ -17,7 +17,7 @@ AdminUser.create(email: "admin@test.com",
 puts "1 AdminUser created"
 
 100.times do |post|
-  Post.create!(date: Date.today, rationale: "#{post} rationale content", user_id: @user.id, overtime_request: 2.5)
+  Post.create!(date: Date.today, rationale: "#{post} rationale content Subway tile intelligentsia +1, kogi pug tacos heirloom pork belly kitsch iPhone. Pop-up sustainable bitters, hammock sriracha microdosing forage offal fingerstache slow-carb brunch. Trust fund tattooed church-key, seitan enamel pin knausgaard franzen thundercats blog copper mug snackwave. Offal tousled celiac coloring book before they sold out. ", user_id: @user.id, overtime_request: 2.5)
 end
 
 puts "100 Post have been created"
